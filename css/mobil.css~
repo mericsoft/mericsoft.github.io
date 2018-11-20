@@ -1,0 +1,215 @@
+ *,body,html
+{
+	margin: 	0;
+	padding: 	0;
+	border:		0;
+	outline: 	0;
+}
+
+body,html
+{
+	width:			100%;
+	height: 		100%;
+	font-family:	Tahoma,"Open Sans", Arial,"Sans Serif";
+	background-color:rgb(255,155,0);
+	font-weight:	200; 
+	font-size: 0.7em;
+		
+}
+
+a{
+	text-decoration: none;
+	
+}
+
+h1
+{
+	font-size: 1em;
+}
+
+
+
+#sol
+{
+	width:48%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	text-align:right;
+	/*border-right: 1% solid rgb(255,150,0);*/
+	padding-right:2%;
+	color:white;
+}
+#solkapsul{
+	width:auto;
+	height:auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+#solkapsul h1{
+  position: relative;
+ 	width:100%;
+	height:auto;
+	font-size:3em;
+	text-align:right;
+	color:rgb(245,245,245);
+	}
+#solkapsul h1 #logo
+{
+	height:2em;
+	margin-right:1%;
+	display:inline-block;
+	vertical-align:middle;
+}
+#sol #biz
+{
+	width:26%;
+	position:fixed;
+	left:14%;
+	bottom:0;
+	padding:1%;
+	line-height:200%;
+	background-color:rgb(255,145,0);
+	border:1px solid rgb(255,135,0);	
+	text-align:center;
+}
+#biz div{
+	width:98%;
+	height:1em;
+	padding:1em 1% 1em 1%;
+	background-color:rgb(255,150,0);
+	
+}
+#biz img
+{
+	width:80%;
+	height:auto;
+}
+
+#biz #iletkapa{
+	cursor:pointer;
+	font-weight:600;
+}
+
+#sol #kontakt
+{
+	width:100%;
+	height:2em;
+	position:relative;
+	text-align:right;
+	margin-top:-1em;
+	
+}
+ #kontakt img
+ {
+	width:2em;
+	height:auto;
+	margin: 0 0.5em 0 0.5em;
+	cursor:pointer;
+}
+
+#sag
+{
+	width:50%;
+	height: 100%;
+	position:fixed;
+	left:50%;
+	top:0;
+	text-align:center;
+	color:rgb(70,70,70);
+	/*background-color:rgb(250,250,250);*/
+	
+	
+}
+
+#kapsul
+{
+	width:30%;
+	height:auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	left:5%;
+}
+
+.is{
+  position: relative;
+  
+	font-size:1em;
+	margin-bottom:2em;
+	height:1em;
+	border-left: 3px solid rgb(255,128,0);
+	/*border-radius:0.5em;
+	border-top:none;
+	border-bottom:none;*/
+	text-align:left;
+	padding:0.2em 0 0.2em 4%;
+	color:rgb(245,245,245);
+	
+}	
+
+
+.is:hover
+{
+	
+	font-weight:600;
+	cursor:pointer;
+	padding-left:6%;
+}
+
+#bilgi{
+	width:90%;
+	height:90%;
+	position:fixed;
+	top:5%;
+	left:5%;
+	border:2px solid rgb(255,135,0);
+	background-color:rgb(255,150,0);
+	color:white;
+	opacity:0.0;
+}
+
+#bilgi #baslik{
+	width:32%;
+	height:1em;
+	padding:1em 0 1em 0;
+	text-align:center;
+	border:2px solid rgb(255,135,0);
+	border-bottom-right-radius:1em;
+	border-bottom-left-radius:1em;
+	border-top:none;
+	background-color:rgb(255,140,0);
+	position:absolute;
+	top:0;
+	left:34%;
+}
+#bilgi #projeres{
+	width:46%;
+	height:auto;
+	position:absolute;
+	top:6em;
+	left:2%;
+}
+#bilgi #ic{
+	width:46%;
+	height:auto;
+	position:absolute;
+	top:6em;
+	left:52%;
+	line-height:200%;	
+}
+
+#bilgi #kapat
+{
+	position:absolute;
+	top:1em;
+	right:1em;
+	cursor:pointer;
+}
+
+
+
+
+

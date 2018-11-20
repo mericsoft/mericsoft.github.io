@@ -1,0 +1,477 @@
+
+@media all and (orientation:landscape){
+ *,body,html
+{
+	margin: 	0;
+	padding: 	0;
+	border:		0;
+	outline: 	0;
+}
+
+
+body,html
+{
+	width:			100%;
+	height: 		100%;
+	font-family:	"Liberation Sans", Calibry,Arial,"Sans Serif";
+	background-color:rgb(250,190,0);
+	background-image: url("../resim/yellowback2.svg");
+	background-size: 100%;
+	font-weight:	200; 
+		
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	display: inline;
+}
+
+h1
+{
+	font-size: 1em;
+}
+#sol
+{
+	width:48%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	text-align:right;
+	/*border-right: 1% solid rgb(255,150,0);*/
+	padding-right:2%;
+	/*color:white;*/
+}
+#solkapsul{
+	width:auto;
+	height:auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+#solkapsul h1{
+  position: relative;
+ 	width:100%;
+	height:auto;
+	font-size:4em;
+	text-align:right;
+	/*color:rgb(245,245,245);*/
+	}
+#solkapsul h1 #logo
+{
+	height:2em;
+	margin-right:1%;
+	display:inline-block;
+	vertical-align:middle;
+}
+#sol #biz
+{
+	width:26%;
+	position:fixed;
+	left:14%;
+	bottom:0;
+	padding:1%;
+	line-height:200%;
+	background-color:rgb(240,180,0);
+	border:1px solid rgb(230,170,0);	
+	box-shadow: 2px 2px 2px rgb(250,200,50);
+	text-align:center;
+}
+#biz div{
+	width:98%;
+	height:1em;
+	padding:1em 1% 1em 1%;
+}
+
+#biz img
+{
+	max-width:80%;
+	width:auto;
+	height:auto;
+}
+
+#biz #iletkapa{
+	cursor:pointer;
+	font-weight:600;
+}
+
+#sol #kontakt
+{
+	width:100%;
+	height:2em;
+	position:relative;
+	text-align:right;
+	margin-top:-1em;
+	
+}
+ #kontakt img
+ {
+	width:2em;
+	height:auto;
+	margin: 0 0.5em 0 0.5em;
+	cursor:pointer;
+}
+#kontakt img:hover 
+{
+opacity:0.5;
+}
+
+
+#sag
+{
+	width:50%;
+	height: 100%;
+	position:fixed;
+	left:50%;
+	top:0;
+	text-align:center;
+	
+}
+
+#kapsul
+{
+	width:80%;
+	height:auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	left:5%;
+}
+
+.is{
+  position: relative;
+  
+	font-size:1.3em;
+	margin-bottom:1.5em;
+	height:1.3em;
+	border-left: 3px solid rgb(0,0,0);
+	text-align:left;
+	padding:0.2em 0 0.2em 5%;
+	color: rgb(0,0,0);
+	
+}	
+
+
+.is:hover
+{
+	
+	font-weight:600;
+	cursor:pointer;
+	padding-left:6%;
+}
+
+#bilgi{
+	width:90%;
+	height:90%;
+	position:fixed;
+	top:5%;
+	left:5%;
+	border:2px solid rgb(230,170,0);
+	background-color:rgb(240,180,0);
+	opacity:0.0;
+	z-index: 30;
+	animation-name: acil;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes acil{
+	0%{
+		width: 0%;
+		height: 0;
+		opacity: 0;
+		
+	}
+	50%{
+		width: 90%;
+		height: 90%;
+		opacity: 0.2;
+	}
+	100%{
+		width: 90%;
+		height: 90%;
+		opacity: 1.0;
+	}
+}
+
+
+
+
+#bilgi #baslik{
+	width:32%;
+	height:1em;
+	padding:1em 0 1em 0;
+	text-align:center;
+	/*border:2px solid rgb(235,170,30);*/
+	border-bottom-right-radius:1em;
+	border-bottom-left-radius:1em;
+	border-top:none;
+	background-color:rgb(230,170,0);
+	color: white;
+	position:absolute;
+	top:0;
+	left:34%;
+}
+#bilgi #projeres{
+	width:56%;
+	height:auto;
+	position:absolute;
+	top:6em;
+	left:2%;
+}
+
+#bilgi iframe
+{
+
+	width: 56%;
+	height: 62%;
+	position:absolute;
+	top:6em;
+	left:2%;	
+
+}
+#bilgi #ic{
+	width:36%;
+	height:auto;
+	position:absolute;
+	top:6em;
+	left:62%;
+	line-height:200%;	
+	color:black;
+	font-size: 1.2em;
+}
+
+
+
+#bilgi #kapat
+{
+	position:absolute;
+	top:1em;
+	right:1em;
+	cursor:pointer;
+}
+
+}
+
+@media all and (orientation:portrait){
+ *,body,html
+{
+	margin: 	0;
+	padding: 	0;
+	border:		0;
+	outline: 	0;
+}
+
+
+
+body,html
+{
+	width:			100%;
+	height: 		100%;
+	font-family:	Tahoma,"Open Sans", Arial,"Sans Serif";
+	background-color:rgb(255,190,0);
+	font-weight:	200; 
+	font-size: 0.7em;
+	color: black;
+		
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+h1
+{
+	font-size: 1em;
+}
+#sol
+{
+	width:100;
+	height:32%;
+	position:relative;
+	top:0em;
+	left:0;
+	text-align:center;
+	padding:2% 0 2% 0;
+	background-color:rgb(255,180,0);
+	border-bottom:2px solid rgb(255,170,0);
+}
+#solkapsul{
+	width:auto;
+	height:auto;
+	position: relative;
+	top:50%;
+	transform:translateY(-50%);
+}
+#solkapsul h1{
+  position: relative;
+ 	width:100%;
+	height:auto;
+	font-size:5em;
+	text-align:center;
+	}
+#solkapsul h1 #logo
+{
+	height:1.4em;
+	margin-right:1%;
+	display:inline-block;
+	vertical-align:middle;
+}
+#sol #biz
+{
+	width:90%;
+	position:fixed;
+	left:4%;
+	bottom:0;
+	padding:1%;
+	line-height:200%;
+	background-color:rgb(255,180,0);
+	border:1px solid rgb(255,170,0);	
+	text-align:center;
+	font-size:2em;
+	z-index:10;
+}
+#biz div{
+	width:98%;
+	height:1em;
+	padding:1em 1% 1em 1%;
+		
+}
+#biz img
+{
+	width:80%;
+	height:auto;
+}
+
+#biz #iletkapa{
+	cursor:pointer;
+	font-weight:600;
+	
+}
+
+#sol #kontakt
+{
+	width:100%;
+	height:2em;
+	position:relative;
+	text-align:center;
+	margin-top: 1.5em;	
+	
+	
+}
+ #kontakt img
+ {
+	width:4em;
+	height:auto;
+	margin: 0 0.5em 0 0.5em;
+	cursor:pointer;
+}
+
+#sag
+{
+	width:100%;
+	height: auto;
+	position:relative;
+	left:0;
+	top:3em;
+	text-align:center;
+	
+}
+
+#kapsul
+{
+	width:100%;
+	height:auto;
+	position: relative;
+	top:3%;
+}
+
+.is{
+  position: relative;
+  
+	font-size:4em;
+	margin-bottom:1.5em;
+	height:1em;
+	padding:0.2em 0 0.2em 4%;
+	
+	
+}	
+
+
+.is:hover
+{
+	
+	font-weight:600;
+	cursor:pointer;
+	padding-left:6%;
+}
+
+#bilgi{
+	width:90%;
+	height:90%;
+	position:fixed;
+	top:5%;
+	left:5%;
+	border:2px solid rgb(255,170,0);
+	background-color:rgb(255,180,0);
+	color:white;
+	opacity:0.0;
+	font-size:2em;
+}
+
+#bilgi #baslik{
+	width:80%;
+	height:1em;
+	padding:1em 0 1em 0;
+	text-align:center;
+	border:2px solid rgb(255,160,0);
+	border-bottom-right-radius:1em;
+	border-bottom-left-radius:1em;
+	border-top:none;
+	background-color:rgb(255,170,0);
+	position:relative;
+	top:0;
+	left:10%;
+}
+#bilgi #projeres{
+	width:70%;
+	height:auto;
+	position:relative;
+	top:2em;
+	left:15%;
+}
+
+#bilgi iframe
+{
+
+	width: 90%;
+	height: auto;
+	position:relative;
+	top:2em;
+	left:5%;	
+
+}
+#bilgi #ic{
+	width:90%;
+	height:auto;
+	position:relative;
+	top:6em;
+	left:10%;
+	line-height:200%;	
+}
+
+#bilgi #kapat
+{
+	position:absolute;
+	top:1em;
+	right:1em;
+	cursor:pointer;
+}
+
+}
+
+
+
+

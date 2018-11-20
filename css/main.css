@@ -1,0 +1,505 @@
+*,body,html
+{
+	margin: 		0;
+	padding: 	0;
+	border:		0;
+	outline: 	0;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(70,70,70);
+}
+
+body,html
+{
+	width:			100%;
+	height: 			100%;
+	font-family:	Helvetica,"Open Sans", Arial,"Sans Serif";
+	font-weight:	200; 
+	color:			rgb(50,50,50);
+	background-color:rgb(250,250,250);
+	
+	
+}
+
+h1,h2
+{
+	font-size: 		1.2em;
+}
+
+#ust
+{
+	width:			100%;
+	height: 			3em;
+	padding: 		1em 0 1em 0;
+	position: 		relative;
+	background-color:rgba(245,245,245,0.7);
+	border-bottom: 1px solid rgb(220,220,220);
+	text-align: 	center;
+	z-index: 		10;
+	position: 		fixed;
+	top:				0;
+	left: 			0;
+	
+}
+
+header img
+{
+	height: 			2.5em;
+	width: 			auto;
+
+}
+
+header *
+{
+	display:				inline-block;
+	vertical-align:	middle;
+
+}
+
+#karsila
+{
+	width:100%;
+	height: 100%;
+	position: fixed;
+	top:0px;
+	left: 0px;
+	z-index: 20;
+	text-align: center;
+	background-color: white;
+
+}
+
+#karsila img
+{
+	width:		200px;
+	height:		200px;
+	position: 	relative;
+	top:			50%;
+	margin-top:	-100px;
+	
+	
+}
+
+
+#alt
+{
+	width	:			100%;
+	height:			2.5em;
+	padding: 		1em 0 1em 0;
+	background-color:rgba(245,245,245,0.7);
+	border-top: 	1px solid rgb(220,220,220);
+	text-align: 	center;
+	position: 		fixed;
+	bottom: 			0;
+	z-index: 		10;
+}
+
+#alt img
+{
+	width:		 	2em;
+	height: 			auto;
+	margin-left:	1%;
+	cursor: 			pointer;
+}
+
+.ortablok
+{
+width:80%;
+height:50%;
+padding: 1px 1% 1px 1%;
+position: fixed;
+top: 25%;
+left: 10%;
+  /* bring your own prefixes 
+transform: translate(-50%, -50%)*/
+}
+
+.ortablok .kutu
+{
+	width:29%;
+	margin-right: 4%;
+	height: 100%;
+	line-height: 200%;
+	text-align: center;
+	float:left;
+	font-size: 0.9em;
+
+}
+
+.kutu h2
+{
+	font-size:0.9em;
+	padding: 0.4em 0 0.4em 0;
+	/*background-color:rgba(245,245,245,0.7);*/
+	border: 4px solid rgb(220,220,220);
+	border-top:none;
+	border-radius: 0.6em;
+	margin-bottom:1em;
+	width: 100%;
+
+}
+#tanit
+{
+	width:86%;
+	height:86%;
+	padding:1%;
+	background-color:rgb(220,220,220);
+	border:3px solid rgb(200,200,200);
+	position:fixed;
+	top:5%;
+	left:5%;
+	line-height:200%;
+	font-size:0.9em;
+	z-index:30;
+	opacity:0.10;
+}
+
+#tanit h3
+{
+	width:100%;
+	height:1em;
+	padding:1em 0 1em 0;
+	margin-bottom:1em;
+	font-size:1em;
+	text-align:center;
+	border:1px solid rgb(180,180,180);
+	background-color:rgb(210,210,210);
+	
+}
+#tanit div
+{
+	width:50%;
+	display:inline-block;
+	vertical-align:top;
+
+}
+
+#tanit img
+{
+	display:inline-block;
+	vertical-align:top;
+	width:50%;
+	
+}
+#tanit #bilgikapa
+{
+	position:absolute;
+	bottom:1%;
+	right:1%;
+	text-align:right;
+	cursor:pointer;
+	font-weight:300;
+}
+	
+/*.kutu:hover h2
+{
+	background-color:rgb(80,80,80);
+	border-color:black;
+	color:white;
+}*/
+
+.kutu span
+{
+	cursor:pointer;
+}
+.kutu span:hover
+{
+	color:rgb(128,0,0);
+}
+.ilet
+{
+	width:	38%;
+	padding: 1em 1% 1em 1%;
+	height: 	auto;
+	position: fixed;
+	z-index: 40;
+	left: 	30%;	
+	bottom:	5em;
+	background-color: rgb(245,245,245);
+	border:	1px solid rgb(220,220,220);
+	font-size: 0.9em;
+	text-align: center;
+	/*opacity: 0.1;
+	-webkit-transition: opacity 2s; /* Safari 3.1 to 6.0 
+    transition: opacity 2s;*/
+	
+}
+
+.ilet div
+{
+	width:100%;
+	height: 0.9em;
+	font-size: 0.9em;
+	padding: 0.6em 0  0.6em 0;
+	margin-bottom: 1em;
+	background-color: rgb(235,235,235);
+}
+.ilet img
+{
+
+margin: 0 auto;
+width:	auto;
+height:	auto;
+max-width: 60%;
+margin-bottom: 3em;
+display: block;
+}
+.ilet button
+{
+	display: block;
+	background-color: transparent;
+	border: rgb(220,220,220);
+	width:100%;
+	text-align: right;
+	cursor: pointer;
+	
+}
+
+.iemesaj
+{
+	width: 100%;
+	height: 100%;
+	background-color: rgb(50,50,50);
+	color :white;
+	position:fixed;
+	top:0;
+	bottom:0;
+	z-index:50;
+
+}
+
+.iemesaj #msjmtn{
+margin:0 auto;
+text-align:center;
+height:1em;
+position:relative;
+top:20%;
+
+}
+
+
+@media all and (orientation : portrait){
+
+*,body,html
+{
+	margin: 		0;
+	padding: 	0;
+	border:		0;
+	outline: 	0;
+}
+
+a{
+	text-decoration: none;
+}
+
+body,html
+{
+	width:			100%;
+	height: 			100%;
+	font-family:	Calibry,Arial,"Open Sans","Sans Serif";
+	font-weight:	100; 
+	color:			rgb(70,70,70);
+	font-size:1.5em;
+	
+	
+}
+
+h1,h2
+{
+	font-size: 		1.2em;
+}
+
+#karsila img
+{
+	width:		6em;
+	height:		6em;
+	position: 	relative;
+	top:			50%;
+	margin-top:	-2em;
+	
+	
+}
+
+header
+{
+	width:			100%;
+	height: 			3em;
+	padding: 		1em 0 1em 0;
+	position: 		relative;
+	background-color: rgba(245,245,245,0.7);
+	border-bottom: 1px solid rgb(220,220,220);
+	text-align: 	center;
+	z-index: 		10;
+	position: 		fixed;
+	top:				0;
+	left: 			0;
+	
+}
+
+header img
+{
+	height: 			2.5em;
+	width: 			auto;
+
+}
+
+header *
+{
+	display:				inline-block;
+	vertical-align:	middle;
+
+}
+
+
+
+
+#alt
+{
+	width	:		10em;
+	height:			2.5em;
+	padding: 		1em 0 1em 0;
+	border-top: 	1px solid rgb(220,220,220);
+	border-left: 	1px solid rgb(220,220,220);
+	background-color: rgba(245,245,245,0.7);
+	text-align: 	center;
+	position: 		fixed;
+	bottom: 		0;
+	right: 			0;
+	z-index: 		10;
+}
+
+#alt img
+{
+	width:		 	2em;
+	margin-left:	1em;
+	cursor: pointer;
+	display:inline-block;
+}
+
+.ortablok
+{
+width:90%;
+height:auto;
+padding: 1px 1% 1px 1%;
+position: relative;
+top: 8em;
+left: 5%;
+
+  /* bring your own prefixes 
+transform: translate(-50%, -50%)*/
+}
+
+.ortablok .kutu
+{
+	width:96%;
+	height:auto;
+	line-height: 200%;
+	text-align: center;
+	font-size: 0.9em;
+	padding: 1em 2% 1em 2%
+
+}
+
+.kutu h2
+{
+	font-size:0.9em;
+	padding: 0.4em 0 0.4em 0;
+	border: 4px solid rgb(220,220,220);
+	border-top:none;
+	border-radius: 0.6em;
+	margin-bottom:1em;
+	width: 100%;
+
+}
+
+#tanit
+{
+	width:96%;
+	height:96%;
+	padding:1%;
+	background-color:rgb(250,250,250);
+	border:1px solid rgb(220,220,220);
+	position:fixed;
+	top:1%;
+	left:1%;
+	line-height:200%;
+	z-index:30;
+	text-align:center;
+}
+#tanit div
+{
+	width:98%;
+	display:inline-block;
+	vertical-align:top;
+
+}
+
+#tanit img
+{
+	display:inline-block;
+	vertical-align:top;
+	width:90%;
+	
+}
+#tanit #bilgikapa
+{
+	position:absolute;
+	bottom:1%;
+	right:1%;
+	text-align:right;
+	cursor:pointer;
+	font-weight:300;
+	z-index:40;
+}
+
+
+.ilet
+{
+	width:	88%;
+	padding: 1em 1% 1em 1%;
+	height: 	auto;
+	position: fixed;
+	left: 	5%;	
+	bottom:	5em;
+	z-index:50;
+	background-color: rgb(245,245,245);
+	border:	1px solid rgb(220,220,220);
+	font-size: 0.9em;
+	text-align: center;
+	/*opacity: 0.1;
+	-webkit-transition: opacity 2s; /* Safari 3.1 to 6.0 
+    transition: opacity 2s;*/
+	
+}
+
+.ilet div
+{
+	width:100%;
+	height: 0.9em;
+	font-size: 0.9em;
+	padding: 0.6em 0  0.6em 0;
+	margin-bottom: 1em;
+	background-color: rgb(235,235,235);
+}
+.ilet img
+{
+
+margin: 0 auto;
+max-width: 60%;
+margin-bottom: 3em;
+display: block;
+}
+.ilet button
+{
+	display: block;
+	background-color: transparent;
+	border: rgb(220,220,220);
+	width:100%;
+	text-align: right;
+	cursor: pointer;
+   font-size: 0.9em;
+	
+}
+}
