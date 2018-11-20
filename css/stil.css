@@ -15,7 +15,7 @@ body,html
 	height: 		100%;
 	font-family:	"Liberation Sans", Calibry,Arial,"Sans Serif";
 	background-color:rgb(250,190,0);
-	background-image: url("../resim/yellowback2.svg");
+	background-image: url("./resim/yellowback2.svg");
 	background-size: 100%;
 	font-weight:	200; 
 		
